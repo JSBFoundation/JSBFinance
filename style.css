@@ -132,11 +132,12 @@ div.end_div a:hover{
 	color: orange;
 }
 .blog-one {
-	background-image: url(images/JSB\ newV1-06.png);
+    background-image: url(images/JSB\ newV1-06.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 200px;
-	padding-bottom: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
 
 }
 p#sub_title span{
