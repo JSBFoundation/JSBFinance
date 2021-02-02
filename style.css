@@ -132,12 +132,11 @@ div.end_div a:hover{
 	color: orange;
 }
 .blog-one {
-    background-image: url(images/JSB\ newV1-06.png);
+    background-image: url('images/JSB\ newV1-06.png');
 	background-size:cover;
 	background-repeat: no-repeat;
-	height: 200px;
-    padding-bottom: 100px;
     border-radius: 30px;
+    padding-bottom: 20px;
 
 }
 p#sub_title span{
@@ -246,6 +245,7 @@ p#sub_title span{
     font-size: 20px;
     color: #fff;
     margin-bottom: 40px;
+    margin-top:20px;
 }
 
 .footer-widget p {
@@ -366,7 +366,13 @@ p#sub_title span{
     margin-top: 10px;
 }
 
-
+.btn_content {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-image: url('images/jsb-banner-color.jpg');
+    background-size: cover;
+}
 /* footer bottom */
 
 .site-footer__bottom .inner-container {
@@ -413,3 +419,23 @@ p#sub_title span{
 .site-footer__social a+a {
     margin-left: 10px;
 }
+/* Modal Content */
+.modal-content {
+    background: none;
+    padding: 20px;
+  }
+  
+  /* The Close Button */
+  .close1 {
+    color: #943894;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
